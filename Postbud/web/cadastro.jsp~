@@ -25,7 +25,7 @@
             <!-- DADOS DE CADASTRO -->
 
             <table cellspacing="10">
-				<p>CADASTRO</p>
+				<p>Cadastro</p>
                 <tr>
                     <td>
                         <label for="email">E-mail </label>
