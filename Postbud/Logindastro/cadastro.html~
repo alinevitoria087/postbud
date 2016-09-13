@@ -40,7 +40,7 @@
 			<br/>
 			<input type="password" id="password">
 			<br/>					
-			<a href="index.html"><button type="submit">Cadastrar</button></a>
+			<a href="login.html"><button type="submit">Cadastrar</button></a>
 			<br/>
 		</div>
 	</div>

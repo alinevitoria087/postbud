@@ -22,22 +22,35 @@
 		</div>
 		<div class="login-box animated fadeInUp">
 			<div class="box-header">
-				<h2>Login</h2>
+	        <div class="login w3l">	
+				<div class="modal-content modal-info">
+					<div class="modal-header">
+							<h2><strong>Meu Perfil</strong></h2>							
+								<img src="images/john.png" title="user" alt="user" />
+							</div>							
+					</div>
+							<a href="#"><button type="submit"><strong>Escrever...</strong></button></a>
+							<a href="#"><button type="submit"><strong>Minhas Cartas</strong></button></a>
+							<a href="#"><button type="submit"><strong>Caixa de Correio</strong></button></a>	
+							</div>
+							<a href="index.html"><button type="submit"><strong>Sair</strong></button></a>
+						</div>		
+														
+					</div>				
+				</div>
+<ul>
+									<li><a href="http://www.facebook.com.br" class="facebook"><img src="images/fb.png" title="facebook" alt="facebook" /></a></li>
+									<li><a href="http://www.twitter.com.br" class="twitter"><img src="images/tw.png" title="twitter" alt="twitter" /></a></li>
+									<li><a href="http://www.googleplus.com.br" class="googleplus"><img src="images/gp.png" title="googleplus" alt="googleplus" /></a></li>
+								</ul>	
+
+						</script>
+						<!-- //script for password confirmation -->
+																											
+						</div>									
+					</div>
+				</div>
 			</div>
-			<label for="username">Email</label>
-			<br/>
-			<input type="text" id="username">
-			<br/>
-			<label for="password">Senha</label>
-			<br/>
-			<input type="password" id="password">
-			<br/>
-			<a href="perfil.html"><button type="submit">Logar</button></a>
-			<br/>
-			<a href="#"><p class="small">Esqueceu sua senha?</p></a>
-			<p class="small">Ainda não é cadastrado? <a href="cadastro.html"><strong>Clique Aqui!</strong></p></a>
-		</div>
-	</div>
 </body>
 
 <script>
