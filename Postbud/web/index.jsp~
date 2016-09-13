@@ -17,7 +17,7 @@
 
 
         <!-- Banner -->
-        <section id="banner">
+      
 
             
             <p>De um jeito aleatório e anônimo</p>
@@ -27,7 +27,7 @@
             <ul class="actions">
                 <li><a href="cadastro.jsp" class="button big special2">Cadastro</a></li>
             </ul>
-       </section>
+     
         
    
         <script src="assets/js/jquery.min.js"></script>
