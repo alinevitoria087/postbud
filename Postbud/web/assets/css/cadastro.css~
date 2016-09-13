@@ -163,7 +163,7 @@ button:hover,
 }
 
 table {
-    margin-left: 26.5%;
+    margin-left: 26%;
     width: calc(20% + 1em);
 }
 
