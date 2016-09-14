@@ -24,7 +24,9 @@
 			<div class="box-header">
 	        <div class="login w3l">	
 				<div class="modal-content modal-info">
-			
+			<div class="direita">
+					<a href="cadcrud.html"><img src="images/index.png" height="20px" width="20px"/></a>
+			</div>	
 					<div class="modal-header">
 							<h2><strong>Meu Perfil</strong></h2>							
 								<img src="images/john.png" title="user" alt="user" />
@@ -36,7 +38,7 @@
 							</div>
 							<a href="index.html"><button type="submit"><strong>Sair</strong></button></a>
 						</div>		
-								<a href="cadcrud.html"><img src="images/index.png" height="20px" width="20px"/></a>								
+														
 					</div>				
 				</div>
 <ul>
