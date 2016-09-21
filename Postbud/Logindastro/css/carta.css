@@ -10,12 +10,20 @@ body {
 .top img{
 	margin-left: 340px;
 }
+		
 .luna img{
    	float: right;
    	margin-top: -750px;
-	margin-right: 50px;	
+	margin-right: 120px;
+	width: 150px;
 }
+.icone img{
+	float: right;
+   	margin-top: -590px;
+	margin-right: 120px;
+	width: 150px;
 
+}
 /* Typography */
 h1#title {
 	font-family: 'Roboto Slab', serif;
