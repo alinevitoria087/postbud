@@ -2,20 +2,21 @@
 <web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
     <servlet>
         <servlet-name>CadastroUsuario</servlet-name>
-        <servlet-class>hibernatePersistence.usuario.CadastroUsuario</servlet-class>
+        <servlet-class>Servlet.CadastroUsuario</servlet-class>
     </servlet>
-    <servlet>
-        <servlet-name>OperacoesUsuario</servlet-name>
-        <servlet-class>hibernatePersistence.conexao.OperacoesUsuario</servlet-class>
-    </servlet>
-    <servlet-mapping>
+      <servlet-mapping>
         <servlet-name>CadastroUsuario</servlet-name>
         <url-pattern>/CadastroUsuario</url-pattern>
     </servlet-mapping>
+   <!-- <servlet>
+        <servlet-name>OperacoesUsuario</servlet-name>
+        <servlet-class>hibernatePersistent.conexao.OperacoesUsuario</servlet-class>
+    </servlet>
+  
     <servlet-mapping>
         <servlet-name>OperacoesUsuario</servlet-name>
         <url-pattern>/OperacoesUsuario</url-pattern>
-    </servlet-mapping>
+    </servlet-mapping>-->
     
     
     <session-config>

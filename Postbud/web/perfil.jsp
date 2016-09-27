@@ -1,5 +1,5 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%@page import="hibernatePersistence.usuario.Usuario" %>
+<%@page import="hibernatePersistent.usuario.Usuario" %>
 <!DOCTYPE html>
 <html>
     <head>

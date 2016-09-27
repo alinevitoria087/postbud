@@ -10,6 +10,7 @@ import hibernatePersistent.usuario.Usuario;
 import hibernatePersistent.usuario.UsuarioDAO;
 import org.hibernate.HibernateException;
 
+
 public class CadastroUsuario extends HttpServlet {
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
@@ -31,12 +32,16 @@ public class CadastroUsuario extends HttpServlet {
         }
 
         if (funciona) {
-            response.sendRedirect("sucessoCadastro.jsp");
+            response.sendRedirect("index.jsp");
         } else {
             response.sendRedirect("erro.jsp");
         }
 
     }
+    
+    
+   
+   
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**

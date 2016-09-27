@@ -1,56 +1,79 @@
+
+
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%@page import="hibernatePersistence.usuario.Usuario" %>
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Retrospect by TEMPLATED</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-        <link rel="stylesheet" href="assets/css/perfil.css" />
-        <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-        <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+<html lang="br">
 
-        <%
-            Usuario usuario = (Usuario) session.getAttribute("email");
-            String nome = usuario.getNome();
-        %>
-    </head>
-    <body class="landing">
+<head>
+	<meta charset="utf-8">
+	<title>Login Postbud</title>
 
-        <!-- Header -->
-        <header id="header" class="alt">
-            <h1><a href="index.html">Postbud</a></h1>
-                
-                    Olá, <%=nome%>
-                     
-                    <a href="index.jsp" class="button big special">Sair</a>
-                
-        </header>
-                    
-        <!-- Nav 
-        <nav id="nav">
-            <ul class="links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="cadastro.jsp">Cadastro</a></li>
-                <li><a href="elements.html">Elements</a></li>
-            </ul>
-        </nav> -->
+	<!-- Google Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700|Lato:400,100,300,700,900' rel='stylesheet' type='text/css'>
 
-        <!-- Banner -->
-        <section id="banner">
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Custom Stylesheet -->
+	<link rel="stylesheet" href="css/style.css">
 
-            <h1>Olá, <%=nome%></h1>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
 
+<body>
+	<div class="container">
+		<div class="top">
+			<h1 id="title" class="hidden"><span id="logo">Post<span>bud</span></span></h1>
+		</div>
+		<div class="login-box animated fadeInUp">
+			<div class="box-header">
+	        <div class="login w3l">	
+				<div class="modal-content modal-info">
+			
+					<div class="modal-header">
+							<h2><strong>Meu Perfil</strong></h2>							
+								<img src="images/john.png" title="user" alt="user" />
+							</div>							
+					</div>
+							<a href="#"><button type="submit"><strong>Escrever...</strong></button></a>
+							<a href="#"><button type="submit"><strong>Minhas Cartas</strong></button></a>
+							<a href="#"><button type="submit"><strong>Caixa de Correio</strong></button></a>	
+							</div>
+							<a href="index.jsp"><button type="submit"><strong>Sair</strong></button></a>
+						</div>		
+								<a href="cadcrud.jsp"><img src="images/index.png" height="20px" width="20px"/></a>								
+					</div>				
+				</div>
+<ul>
+									<li><a href="http://www.facebook.com.br" class="facebook"><img src="images/fb.png" title="facebook" alt="facebook" /></a></li>
+									<li><a href="http://www.twitter.com.br" class="twitter"><img src="images/tw.png" title="twitter" alt="twitter" /></a></li>
+									<li><a href="http://www.googleplus.com.br" class="googleplus"><img src="images/gp.png" title="googleplus" alt="googleplus" /></a></li>
+								</ul>	
 
-        </section>
+						</script>
+						<!-- //script for password confirmation -->
+																											
+						</div>									
+					</div>
+				</div>
+			</div>
+</body>
 
-        <!-- Scripts -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/skel.min.js"></script>
-        <script src="assets/js/util.js"></script>
-        <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-        <script src="assets/js/main.js"></script>
+<script>
+	$(document).ready(function () {
+    	$('#logo').addClass('animated fadeInDown');
+    	$("input:text:visible:first").focus();
+	});
+	$('#username').focus(function() {
+		$('label[for="username"]').addClass('selected');
+	});
+	$('#username').blur(function() {
+		$('label[for="username"]').removeClass('selected');
+	});
+	$('#password').focus(function() {
+		$('label[for="password"]').addClass('selected');
+	});
+	$('#password').blur(function() {
+		$('label[for="password"]').removeClass('selected');
+	});
+</script>
 
-    </body>
 </html>
