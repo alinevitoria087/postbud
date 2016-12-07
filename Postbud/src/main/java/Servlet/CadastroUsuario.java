@@ -28,6 +28,7 @@ public class CadastroUsuario extends HttpServlet {
         try {
             funciona = usuarioDAO.addUsuario(usuario);
         } catch (HibernateException ex) {
+            ex.printStackTrace();
             funciona = false;
         }
 
@@ -39,9 +40,6 @@ public class CadastroUsuario extends HttpServlet {
 
     }
     
-    
-   
-   
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**

@@ -23,19 +23,20 @@
 		</div>
 		<div class="login-box animated fadeInUp">
 			<div class="box-header">
+                        <form action="Login" method="post">
 				<h2>Login</h2>
 			</div>
 			<label for="username">Email</label>
 			<br/>
-			<input type="text" id="username">
+			<input type="text" id="email" name="un" >
 			<br/>
 			<label for="password">Senha</label>
 			<br/>
-			<input type="password" id="password">
+			<input type="password" id="password" name="pw">
 			<br/>
-			<a href="perfil.jsp"><button type="submit">Logar</button></a>
+			<button type="submit" value="Entrar" id="botao"> Logar</button></a>
 			<br/>
-			<a href="#"><p class="small">Esqueceu sua senha?</p></a>
+			<p class="small">Esqueceu sua senha?</p></a>
 			<p class="small">Ainda não é cadastrado? <a href="cadastro.jsp"><strong>Clique Aqui!</strong></p></a>
 		</div>
 	</div>

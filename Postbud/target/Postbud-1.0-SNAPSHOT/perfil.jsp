@@ -33,8 +33,8 @@
 								<img src="images/john.png" title="user" alt="user" />
 							</div>							
 					</div>
-							<a href="#"><button type="submit"><strong>Escrever...</strong></button></a>
-							<a href="#"><button type="submit"><strong>Minhas Cartas</strong></button></a>
+							<a href="carta.jsp""><button type="submit"><strong>Escrever...</strong></button></a>
+							<a href=""><button type="submit"><strong>Minhas Cartas</strong></button></a>
 							<a href="#"><button type="submit"><strong>Caixa de Correio</strong></button></a>	
 							</div>
 							<a href="index.jsp"><button type="submit"><strong>Sair</strong></button></a>

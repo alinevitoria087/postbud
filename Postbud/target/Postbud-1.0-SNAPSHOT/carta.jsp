@@ -1,4 +1,3 @@
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="br">
 
@@ -28,7 +27,7 @@
 		<img src="images/luna.png"></img>		
 	</div>
 	<div class="icone">
-		<img src="images/Ã­cone.png"></img>
+		<img src="images/ícone.png"></img>
 	</div>
 
 </body>

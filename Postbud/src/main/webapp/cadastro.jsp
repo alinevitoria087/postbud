@@ -29,19 +29,19 @@
                     
 			<label for="username">Nome</label>
 			<br/>
-			<input type="text" id="username">
+                        <input type="text" id="username" name="nome">
 			<br/>
 			<label for="username">Sobrenome</label>
 			<br/>
-			<input type="text" id="username">
+                        <input type="text" id="username" name="sobrenome">
 			<br/>
 			<label for="username">Email</label>
 			<br/>
-			<input type="text" id="email">
+                        <input type="text" id="email" name="email">
 			<br/>	
 			<label for="password">Senha</label>
 			<br/>
-			<input type="password" id="password">
+                        <input type="password" id="password" name="senha">
 			<br/>					
 			<button type="submit" value="Cadastre-se"> Cadastrar</button></a>
 			<br/>

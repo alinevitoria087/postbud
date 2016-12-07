@@ -41,7 +41,7 @@ public class Login extends HttpServlet {
                 //bota o Error no request!
                 //response.sendRedirect("PaginaInicial.jsp"); //error page 
                 request.setAttribute("Error", "Login inválido!");
-                RequestDispatcher rd = request.getRequestDispatcher("home.jsp");
+                RequestDispatcher rd = request.getRequestDispatcher("erro.jsp");
                 rd.forward(request, response);
             } else {
                 session.setAttribute("currentSessionUser", user);

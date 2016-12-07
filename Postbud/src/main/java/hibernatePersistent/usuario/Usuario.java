@@ -29,12 +29,7 @@ public class Usuario implements Serializable{
    @Temporal(javax.persistence.TemporalType.DATE)
    private Date data_nascimento;
    
-   
-   
-
-  
-
-
+ 
  
     public String getEmail() {
         return email;
